@@ -30,7 +30,7 @@ int main(void)
 	scanf("%d",&key);
 	
 	if(Bin_Search(a,0,14,key))
-		printf("KEY IS PRESENT \n");
+		printf("KEY IS PRESENT  Search Successful\n");
 	else
-		printf("KEY IS NOT PRESENT \n");
+		printf("KEY IS NOT PRESENT Search Unsccessful\n");
 }
